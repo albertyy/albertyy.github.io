@@ -1,0 +1,313 @@
+body{
+color:#00e673;
+}
+
+h1{
+position: absolute;
+color:white;
+top:2%;
+font-size: 60px;
+left: 50%;
+}
+
+.but{
+	position: absolute;
+	left:0%;
+	top:0%;
+	zoom:0.5;
+}
+
+.section1 p{
+position: absolute;
+top: 50%;
+left: 65%;
+font-size: 45px;
+color: rgb(75,128,167);
+display: none;
+}
+
+#six{
+	display: block;
+}
+
+.section1{
+background-image: url(image/6.png);
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size :cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+}
+
+
+
+.fmenu{
+position:absolute;
+top:0%; 
+} 
+
+.fmenu1{
+	margin-top: 35px;
+}
+
+.fmenu1 a img{
+	height: 260px;
+	width: 175px;
+	margin: 35px;
+}
+
+.fmenu2 a img{
+	height: 260px;
+	width: 175px;
+	margin: 55px;
+}
+
+.section2{
+background-image: url(image/3.3.jpg) ;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size :cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+}
+
+.section2 .img1{
+	display: none;
+	position:absolute;
+	left: 20%;
+    top: 42%;
+    zoom: 1.35;
+}
+
+.section2 div{
+	float: left;
+}
+
+.section2 .img2{
+	opacity: 0;
+	position:absolute;
+    left: 31%;
+    top: 64%;
+    zoom: 1.25;
+}
+
+.section2 h1{
+	color: black;
+
+}
+
+.section3{
+background-image: url(image/2.1.png) ;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size :cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+}
+
+.section3 .img1{
+	position: absolute;
+    left: 38%;
+    zoom: 2.0;
+    display: none;
+    opacity: 0.5;
+}
+
+.section3 h1{
+	color: rgb(25,61,87);
+}
+
+.section4{
+background-image: url(image/4.png) ;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size :cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+}
+
+.section4 .img1{
+position: absolute;
+top: 10%;
+left:10%;
+
+transform:rotate(45deg);
+}
+
+.section4 .img2{
+position: absolute;
+top: 25%;
+left: 20%;
+opacity: 0;
+}
+
+.section4 .img3{
+position: absolute;
+top: 45%;
+left:30%;
+opacity: 0;
+}
+
+.section4 .img4{
+position: absolute;
+top: 62%;
+left: 42%;
+opacity: 0;
+}
+
+.section4 h1{
+	color: rgb(1,31,57);
+}
+.section5 .img1{
+height: 252px;
+position: absolute;
+left: 24%;
+top: 57%;
+}
+
+.section5{
+background-image: url(image/5.jpg);
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size :cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+}
+
+.section5 h1{
+	color: rgb(13,16,51);
+}
+.section6{
+
+background-image: url(image/1.jpg) ;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size :cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+
+}
+
+.section6 .img1{
+padding-left: 10%;
+margin-bottom: -9%;
+}
+
+.section6 h1{
+color: rgb(45,67,20);
+}
+
+.slide1{
+	font-size: 200px;
+	text-align: center;
+}
+
+.slide2{
+	font-size: 200px;
+	text-align: center;
+}
+
+#fullpageMenu{
+	position: fixed;
+	font-size: 25px;
+	color: white;
+	top:0px;
+	right:0px;
+}
+
+#fp-nav {
+	top: 10%;
+}
+
+.box1{
+    position: absolute;
+    width: 600px;
+    top: 20%;
+    left: 50%;
+    font-size: 30px;
+    color: rgb(89,89,89);
+}
+
+.box2{
+    position: absolute;
+    width: 600px;
+    top: 20%;
+    left: 50%;
+    font-size: 30px;
+    color: rgb(141,188,192);
+}
+
+.box3{
+    position: absolute;
+    width: 600px;
+    top: 20%;
+    left: 50%;
+    font-size: 30px;
+    color: rgb(170,169,184);
+}
+
+.box4{
+    position: absolute;
+    width: 600px;
+    top: 20%;
+    left: 66%;
+    font-size: 30px;
+    color: rgb(0,0,0);
+}
+
+.box5{
+    position: absolute;
+    width: 800px;
+    top: 12%;
+    left: 54%;
+    font-size: 30px;
+    color: rgb(119,161,53);
+}
+
+.box6{
+	position: absolute;
+    width: 600px;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+    color: rgb(141,188,192);
+}
+
+.box7{
+    position: absolute;
+    width: 600px;
+    top: 20%;
+    left: 5%;
+    font-size: 30px;
+    color: rgb(0,0,0);
+}
+
+.box8{
+    position: absolute;
+    width: 800px;
+    top: 40%;
+    left: 50%;
+    font-size: 30px;
+    color: rgb(119,161,53);
+}
+
+.box9{
+    position: absolute;
+    width: 800px;
+    top: 7%;
+    left: 2%;
+    font-size: 30px;
+    color: rgb(119,161,53);
+}
