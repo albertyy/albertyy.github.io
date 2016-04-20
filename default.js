@@ -125,7 +125,10 @@ $(function(){
 			break;
 			case 3:
 			move(".section3 .img1").set("display","inline").end();
+			move(".section3 .img1").set("width","48%").end();
 			move(".section3 .img1").set("left","52%").end();
+			move(".section3 .img1").set("top","51%").end();
+
 			break;
 			case 4:
 			move(".section4 .img1").set("top","50%").duration("2s").end();
@@ -169,6 +172,8 @@ $(function(){
 			break;
 			case 3:
 			move(".section3 .img1").set("display","none").end();
+			move(".section3 .img1").set("width","20%").end();
+			move(".section3 .img1").set("top","60%").end();
 			move(".section3 .img1").set("left","38%").end();
 			break;
 			case 4:
