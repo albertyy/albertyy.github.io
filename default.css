@@ -363,6 +363,44 @@ color: rgb(45,67,20);
     z-index: 2
 }
 
-@media screen and (max-width: 1500px){
-    
+@media screen and (max-width: 1600px){
+    h1{
+        font-size: 60px;
+    }
+
+    .section1 p{
+        font-size: 30px;
+    }
+
+    .box{
+        font-size: 23px;
+    }
+
+    .box2{
+        font-size: 23px;
+    }
+
+    .box3{
+        font-size: 23px;
+    }
+
+    .box4{
+        font-size: 23px;
+    }
+
+    .box5{
+        font-size: 23px;
+    }
+
+    .box6{
+        font-size: 23px;
+    }
+
+    .box7{
+        font-size: 23px;
+    }
+
+    .box{
+        font-size: 23px;
+    }
 }
