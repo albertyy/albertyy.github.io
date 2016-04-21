@@ -385,7 +385,7 @@ color: rgb(45,67,20);
     }
 
     .box4{
-        left: 60%
+        left: 60%;
         font-size: 23px;
     }
 
@@ -400,6 +400,7 @@ color: rgb(45,67,20);
     }
 
     .box7{
+        left: 2%;
         font-size: 23px;
     }
 
