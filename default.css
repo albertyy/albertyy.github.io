@@ -169,29 +169,31 @@ background-size: cover;
 .section4 .img1{
 position: absolute;
 top: 10%;
-left:10%;
-
+left:0%;
 transform:rotate(45deg);
 }
 
 .section4 .img2{
 position: absolute;
-top: 25%;
-left: 20%;
+top: 30%;
+left: 18%;
 opacity: 0;
+width: 10%;
 }
 
 .section4 .img3{
 position: absolute;
 top: 45%;
-left:30%;
+left:25%;
 opacity: 0;
+width: 10%;
 }
 
 .section4 .img4{
 position: absolute;
-top: 62%;
-left: 42%;
+top: 50%;
+left: 35%;
+width: 10%;
 opacity: 0;
 }
 
@@ -199,10 +201,10 @@ opacity: 0;
 	color: rgb(1,31,57);
 }
 .section5 .img1{
-height: 252px;
-position: absolute;
-left: 24%;
-top: 57%;
+    width: 53%;
+    position: absolute;
+    left: 24%;
+    top: 57%;
 }
 
 .section5{

@@ -131,8 +131,9 @@ $(function(){
 
 			break;
 			case 4:
-			move(".section4 .img1").set("top","50%").duration("2s").end();
-			move(".section4 .img1").set("left","25%").duration("2s").end();
+			move(".section4 .img1").set("top","40%").duration("2s").end();
+			move(".section4 .img1").set("left","15%").duration("2s").end();
+			move(".section4 .img1").set("width","20%").duration("2s").end();
 			move(".section4 .img1").rotate(0).duration("2s").end();
 			move(".section4 .img2").set("opacity","1").delay("0s").end();
 			move(".section4 .img2").set("left","200%").delay("0s").duration("6s").end();
@@ -178,14 +179,15 @@ $(function(){
 			break;
 			case 4:
 			move(".section4 .img1").set("top","10%").end();
-			move(".section4 .img1").set("left","10%").end();
+			move(".section4 .img1").set("left","0%").end();
+			move(".section4 .img1").set("width","15%").end();
 			move(".section4 .img1").rotate(45).end();
 			move(".section4 .img2").set("opacity","0").delay("0s").end();
-			move(".section4 .img2").set("left","20%").end();
+			move(".section4 .img2").set("left","18%").end();
 			move(".section4 .img3").set("opacity","0").delay("0s").end();
-			move(".section4 .img3").set("left","30%").end();
+			move(".section4 .img3").set("left","25%").end();
 			move(".section4 .img4").set("opacity","0").delay("0s").end();
-			move(".section4 .img4").set("left","42%").end();
+			move(".section4 .img4").set("left","35%").end();
 			break;
 			case 5:
 			move(".section5").set("background-image","url(image/5.jpg)").duration("1s").end();
