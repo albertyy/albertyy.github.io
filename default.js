@@ -157,8 +157,8 @@ $(function(){
 				.end();
 			break;
 			case 6:
-			move(".section6 .img1").set("padding-left","2000px").end();
 			break;
+
 		}
 	},
 	
@@ -193,7 +193,6 @@ $(function(){
 			move(".section5").set("background-image","url(image/5.jpg)").duration("1s").end();
 			break;
 			case 6:
-			move(".section6 .img1").set("padding-left","200px").end();
 			break;
 		}
 	},

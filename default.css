@@ -223,7 +223,7 @@ background-size: cover;
 }
 .section6{
 
-background-image: url(image/1.jpg) ;
+background-image: url(image/1.jpg);
 text-align: center;
 background-repeat: no-repeat;
 background-position: center;
@@ -231,12 +231,34 @@ background-size: cover;
 -webkit-background-size :cover;
 -moz-background-size:cover;
 -o-background-size:cover;
+z-index:-1;
 
 }
 
+
 .section6 .img1{
-padding-left: 10%;
-margin-bottom: -9%;
+    width: 30%;
+    top: 56%;
+    position: absolute;
+    animation-name: re;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: re;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+@keyframes re{
+from {left:33%;}
+to {left: 102%}
+}
+
+@-webkit-keyframes re{
+from {left:33%;}
+to {left: 102%}
 }
 
 .section6 h1{
@@ -296,7 +318,7 @@ color: rgb(45,67,20);
     position: absolute;
     width: 600px;
     top: 20%;
-    left: 66%;
+    left: 62%;
     font-size: 30px;
     color: rgb(0,0,0);
 }
@@ -304,9 +326,9 @@ color: rgb(45,67,20);
 .box5{
     position: absolute;
     width: 800px;
-    top: 12%;
-    left: 54%;
-    font-size: 30px;
+    top: 5%;
+    left: 4%;
+    font-size: 25px;
     color: rgb(119,161,53);
 }
 
@@ -323,7 +345,7 @@ color: rgb(45,67,20);
     position: absolute;
     width: 600px;
     top: 20%;
-    left: 5%;
+    left: 8%;
     font-size: 30px;
     color: rgb(0,0,0);
 }
@@ -331,17 +353,9 @@ color: rgb(45,67,20);
 .box8{
     position: absolute;
     width: 800px;
-    top: 40%;
-    left: 50%;
-    font-size: 30px;
+    top: 45%;
+    left: 45%;
+    font-size: 25px;
     color: rgb(119,161,53);
-}
-
-.box9{
-    position: absolute;
-    width: 800px;
-    top: 7%;
-    left: 2%;
-    font-size: 30px;
-    color: rgb(119,161,53);
+    z-index: 2
 }
