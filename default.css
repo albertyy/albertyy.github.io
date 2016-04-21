@@ -372,7 +372,7 @@ color: rgb(45,67,20);
         font-size: 30px;
     }
 
-    .box{
+    .box1{
         font-size: 23px;
     }
 
@@ -385,11 +385,14 @@ color: rgb(45,67,20);
     }
 
     .box4{
+        left: 60%
         font-size: 23px;
     }
 
     .box5{
-        font-size: 23px;
+        top:6%;
+        left: 36%;
+        font-size: 20px;
     }
 
     .box6{
@@ -401,6 +404,7 @@ color: rgb(45,67,20);
     }
 
     .box8{
-        font-size: 23px;
+        font-size: 20px;
+        left: 36%;
     }
 }
