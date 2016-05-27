@@ -86,7 +86,7 @@ $(function(){
 				recordHistory:true, //可以用前进后退来回到历史记录的anchor页面 如果autoScrolling 被设置了false 这个也会被设置成false
 				navigation:true,
 				navigationPosition:"right",
-				navigationTooltips:["TIME TO KNOW ABOUT ME","PERSONAL INFOMATION","EDUCATION","TECHNIACAL SKILL","WORKING EXPERIENCE","PROJECT"],
+				navigationTooltips:["IT'S TIME TO KNOW ME","PERSONAL INFOMATION","EDUCATION","TECHNIACAL SKILL","WORKING EXPERIENCE","PROJECT"],
 				showActiveTooltip:true,
 				slidesNavigation:true,
 				slidesNavPosition:"bottom", 
